@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem renders without crashing given the required props 1`] = `
+<div
+  className="todoListItem"
+>
+  <div
+    className="col-md-8 offset-md-2"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-10 col-sm-8"
+      >
+        <h3
+          className="taskText taskDone"
+        >
+          test task
+        </h3>
+      </div>
+      <div
+        className="col-md-1 col-sm-2"
+      />
+      <div
+        className="col-md-1 col-sm-2"
+      >
+        <button
+          className="btn btn-lg float-right deleteBtn"
+        >
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  352,
+                  512,
+                  Array [],
+                  "f00d",
+                  "M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z",
+                ],
+                "iconName": "times",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TodoList renders without crashing given the required props 1`] = `
+<div
+  className="todoListMain"
+>
+  <div
+    className="col-md-12"
+  >
+    <ListItem
+      completeTask={[Function]}
+      data={
+        Object {
+          "done": 0,
+          "id": 0,
+          "task": "test 1",
+        }
+      }
+      deleteTask={[Function]}
+      key="0"
+    />
+    <ListItem
+      completeTask={[Function]}
+      data={
+        Object {
+          "done": 1,
+          "id": 1,
+          "task": "test 2",
+        }
+      }
+      deleteTask={[Function]}
+      key="1"
+    />
+  </div>
+</div>
+`;

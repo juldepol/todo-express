@@ -1,0 +1,41 @@
+.App {
+  background-color: #fffaf0;
+  font-family: Console, monospace;
+}
+
+.header{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.addNewtForm{
+  text-align: center;
+  font-size: 20px;
+}
+
+.taskText{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.taskDone{
+  text-decoration: line-through;
+}
+
+.btn:focus,.btn:active{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn:hover{
+  color: gray !important;
+}
+
+input[type="text"]{
+  background-color : #fffaf0; 
+  outline: none !important;
+  box-shadow: none !important;
+  border: black 2px solid;
+  border-radius: 5px;
+}
